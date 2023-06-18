@@ -50,7 +50,7 @@ const categoryList = () => {
 const displayMenuItems = (menuItems) => {
   let displayMenu = menuItems.map((item) => {
     return `<ul class="cards">
-    <li class="cards_item" id="item_salad">
+    <li class="cards_item">
       <div class="card">
         <div class="card_price">${item.price}</div>
         <div class="card_image">
