@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #324968;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.btn-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Lobster", cursive;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  color: #DDDACB;
+  background-color: #091014;
+  cursor: pointer;
+}
+
+.btn-item:hover {
+  border: 1px solid #091014;
+  color: #091014;
+  background-color: #DDDACB;
+  transform: scale(1.2);
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: 24rem;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card_image {
+  max-height: 250px;
+  margin-top: -24px;
+}
+.card_image img {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+.card_image:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: -100px;
+  background: linear-gradient(0deg, #091014 10%, rgba(0, 0, 0, 0) 100%);
+}
+
+.card {
+  background-color: #091014;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  z-index: 1;
+  display: block;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  line-height: 4rem;
+  text-shadow: black 1px 0 15px;
+  color: white;
+}
+
+.card_title {
+  font-family: "Lobster", cursive;
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+  margin-top: -50px;
+  margin-bottom: 24px;
+  text-shadow: black 1px 0 15px;
+  color: white;
+}
+
+.card_text {
+  color: #DDDACB;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+.card_text p {
+  max-width: 700px;
+}
+
+.card_price {
+  position: relative;
+  top: 10px;
+  right: 16px;
+  text-align: right;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  height: 24px;
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: black 3px 0px 6px;
+}
+
+.highlight {
+  background-color: rgb(255, 55, 55);
+}
+
+
+#item_fig .card:after {
+  content: "Seasonal";
+  font-family: "Raleway", sans-serif;
+  color: rgba(234, 225, 175, 0.8);
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  width: 10ch;
+  height: 1.5em;
+  padding: 0.2em 0.4em;
+  position: relative;
+  bottom: calc(100% - 2.5em);
+  left: 1em;
+}

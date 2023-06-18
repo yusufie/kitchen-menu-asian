@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Kung Pao Chicken",
+    "category": "China",
+    "price": 10.99,
+    "img": "./images/Kung-Pao-Chicken.jpg",
+    "desc": "Stir-fried chicken with peanuts, vegetables, and a spicy sauce."
+  },
+  {
+    "id": 2,
+    "title": "Pad Thai",
+    "category": "Thailand",
+    "price": 11.99,
+    "img": "./images/Pad-Thai.jpg",
+    "desc": "Stir-fried rice noodles with shrimp, tofu, peanuts, and lime."
+  },
+  {
+    "id": 3,
+    "title": "Sushi Platter",
+    "category": "Japan",
+    "price": 16.99,
+    "img": "./images/Sushi-Platter.jpg",
+    "desc": "Assortment of fresh sushi rolls and nigiri served with soy sauce and wasabi."
+  },
+  {
+    "id": 4,
+    "title": "Tom Yum Soup",
+    "category": "Thailand",
+    "price": 9.99,
+    "img": "./images/Tom-Yum-Soup.jpg",
+    "desc": "Spicy and sour soup with shrimp, mushrooms, lemongrass, and lime leaves."
+  },
+  {
+    "id": 5,
+    "title": "Yangzhou Fried Rice",
+    "category": "China",
+    "price": 12.99,
+    "img": "./images/Yangzhou-Fried-Rice.jpg",
+    "desc": "Yangzhou style fried rice, serving with bean and pickles"
+  },
+  {
+    "id": 6,
+    "title": "Onigiri",
+    "category": "Japan",
+    "price": 9.99,
+    "img": "./images/Onigiri.jpg",
+    "desc": "Rice Sandwich, serving with soy sauce"
+  },
+  {
+    "id": 7,
+    "title": "Jajangmyeon",
+    "category": "Korea",
+    "price": 15.99,
+    "img": "./images/Jajangmyeon.jpg",
+    "desc": "Black bean sauce noodle, serving with green onion"
+  },
+  {
+    "id": 8,
+    "title": "Ma Yi Shang Shu",
+    "category": "China",
+    "price": 12.99,
+    "img": "./images/Ma-Yi-hang-Shu.jpg",
+    "desc": "Hot pepper sauce noodle, serving with soy bean and onion"
+  },
+  {
+    "id": 9,
+    "title": "Doroyaki",
+    "category": "Japan",
+    "price": 3.99,
+    "img": "./images/Dorayaki.jpg",
+    "desc": "Red bean paste dessert, serving with honey."
+  },
+  {
+    "id": 10,
+    "title": "Chicken Ramen",
+    "category": "Japan",
+    "price": 7.99,
+    "img": "./images/Chicken-Ramen.jpg",
+    "desc": "Chicken noodle soup, serving with vegetables such as soy bean, green onion. In an optional you can ask for egg. "
+  },
+  {
+    "id": 11,
+    "title": "Bibimbap",
+    "category": "Korea",
+    "price": 8.99,
+    "img": "./images/Bibimbap.jpg",
+    "desc": "Boiling vegetables, serving with special hot sauce"
+  },
+  {
+    "id": 12,
+    "title": "Dan Dan Mian",
+    "category": "China",
+    "price": 5.99,
+    "img": "./images/Dan-Dan-Mian.jpg",
+    "desc": "Dan dan noodle, serving with green onion"
+  },
+  {
+    "id": 13,
+    "title": "Tteokbokki",
+    "category": "Korea",
+    "price": 10.99,
+    "img": "./images/Tteokbokki.jpg",
+    "desc": "Spicy rice cakes, serving with fish cake."
+  },
+  {
+    "id": 14,
+    "title": "Bulgogi",
+    "category": "Korea",
+    "price": 13.99,
+    "img": "./images/Bulgogi.jpg",
+    "desc": "Marinated grilled beef served with rice and assorted side dishes."
+  },
+  {
+    "id": 15,
+    "title": "Miso Soup",
+    "category": "Japan",
+    "price": 3.99,
+    "img": "./images/Miso-Soup.jpg",
+    "desc": "Traditional Japanese soup made with soybean paste, tofu, seaweed, and green onions."
+  },
+  {
+    "id": 16,
+    "title": "Hainanese Chicken Rice",
+    "category": "China",
+    "price": 14.99,
+    "img": "./images/Hainanese-Chicken-Rice.jpg",
+    "desc": "Poached chicken served with fragrant rice, cucumber slices, and chili sauce."
+  },
+  {
+    "id": 17,
+    "title": "Kimchi Fried Rice",
+    "category": "Korea",
+    "price": 9.99,
+    "img": "./images/Kimchi-Fried-Rice.jpg",
+    "desc": "Fried rice with spicy kimchi, vegetables, and your choice of meat or tofu."
+  },
+  {
+    "id": 18,
+    "title": "Green Curry",
+    "category": "Thailand",
+    "price": 12.99,
+    "img": "./images/Green-Curry.jpg",
+    "desc": "Spicy Thai curry with coconut milk, green chili, bamboo shoots, and your choice of meat or vegetables."
+  },
+  {
+    "id": 19,
+    "title": "Egg Drop Soup",
+    "category": "China",
+    "price": 4.99,
+    "img": "./images/Egg-Drop-Soup.jpg",
+    "desc": "Light Chinese soup made with beaten eggs, chicken broth, and green onions."
+  },
+  {
+    "id": 20,
+    "title": "Tempura",
+    "category": "Japan",
+    "price": 8.99,
+    "img": "./images/Tempura.jpg",
+    "desc": "Assortment of lightly battered and deep-fried seafood and vegetables."
+  }
+]
